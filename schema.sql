@@ -6,7 +6,6 @@ DROP TABLE IF EXISTS employees CASCADE;
 -- Create the table
 CREATE TABLE employees(
 	emp_no INT NOT NULL,
-	--emp_title_id VARCHAR(5) NOT NULL,
 	birth_date DATE NOT NULL,
 	first_name VARCHAR(30) NOT NULL,
 	last_name VARCHAR(30) NOT NULL,
@@ -41,7 +40,6 @@ CREATE TABLE dept_emp(
 	dept_no VARCHAR(5) NOT NULL REFERENCES departments(dept_no),
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
-	--FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	PRIMARY KEY(emp_no, dept_no)
 );
 
@@ -59,7 +57,6 @@ CREATE TABLE dept_manager (
 	emp_no INT NOT NULL,
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL,
-	--FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
 	PRIMARY KEY(dept_no, emp_no)
 );
 
@@ -77,7 +74,7 @@ CREATE TABLE salaries(
 	salary INT NOT NULL,
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL
-	--FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
+
 );
 
 
@@ -95,7 +92,6 @@ CREATE TABLE titles(
 	title VARCHAR(30) NOT NULL,
 	from_date DATE NOT NULL,
 	to_date DATE NOT NULL
-	--FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
-	--PRIMARY KEY (emp_no)
+	
 );
 
