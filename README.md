@@ -10,15 +10,19 @@ Overall, the goal of this review was to determine the number of employees upcomi
 The analysis was broken down into a few steps: 
 
 - First it was important to determine which employees are approaching retirement, the results of that are in the 'retirement titles' csv. Screen shot below: 
+
 ![retirement_titles](https://user-images.githubusercontent.com/111612130/196001559-4a83dcff-d370-429e-9b81-602a10b6d920.png)
 
 - Second, it was important to determine what each employees most recent title is to better understand seniority, the results of that are in the 'unique titles' csv. Screen shot below. 
+
 ![unique_titles](https://user-images.githubusercontent.com/111612130/196001564-c9ff4e61-0619-4907-9371-97812327a41e.png)
 
 - Third, it was important to determine the count of each active employees titles, to better determine the impact at retirement, the result fos that are in the 'retiring titles' csv. Screen shot below: 
+
 ![retiring_titles](https://user-images.githubusercontent.com/111612130/196001567-ee127774-22e0-4693-954c-9471a294da85.png)
 
 - Forth, it was important to create a list of employees that were eligible to mentor more junior employees, results of that list in the 'mentorship eligibility' csv file. Screen shot below. 
+
 ![mentorship_eligibility](https://user-images.githubusercontent.com/111612130/196001572-f3d8b17e-3bf0-45a3-90f5-9cb4187e0055.png)
 
 ## Summary 
